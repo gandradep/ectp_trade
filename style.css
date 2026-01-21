@@ -86,6 +86,13 @@ header .date {
   background-size: 50%;
 }
 
+.responsive-iframe{
+   width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+}
+
 /* --- DESKTOP LAYOUT --- */
 @media (min-width: 900px) {
     .main-wrapper { display: flex; flex-direction: row; }
